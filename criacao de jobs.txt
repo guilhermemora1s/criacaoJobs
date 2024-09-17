@@ -1,0 +1,48 @@
+#Jobs: Automatização de tarefas no sistema.  
+
+Acessa o ambiente do SAP ;
+
+Transação SM36 (Background Job Processing), em Dados Gerais, vamos preencher os seguintes campos:
+Nome do Job: Cria um nome para o job;  
+Classe do job: A, B ou C; 
+Status é atual posição do job  
+
+  
+
+Depois de preencher os campos, selecionamos a opção: Condição de execução
+
+Definimos a data e a hora da automatização, seleciona a opção valores do período e define o tempo que o job irá trabalhar, fazemos a verificação e depois salva.  
+
+  
+
+Depois de fazer esse processo, selecionamos a opção: Passos  
+
+  
+
+Erro! O nome de arquivo não foi especificado. 
+
+  
+
+Seleciona a opção ABAP;  
+
+Em programa ABAP: Insere o nome do job e seleciona a variante;  
+
+Clica em verificar e depois salva  
+
+Para finalizar seleciona o disquete para salvar o JOB.  
+
+  
+
+Observações:   
+
+Categoria das classes no job:   
+
+Classe com alta prioridade;  
+
+Classe com prioridade média;  
+
+Classe com prioridade baixa  
+
+Para analisar qual a variante do programa, executamos a transação SE38, inserimos o nome do programa e selecionamos o ícone chamar variante.  
+
+A transação SM37 (Síntese de jobs) mostra todos os jobs que estão configurados no sistema.  
